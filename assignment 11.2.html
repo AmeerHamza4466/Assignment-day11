@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+    <style>
+        *{
+            margin:0;
+        }
+        .container{
+            background-color: rgb(7 15 37);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .block{
+            border: 1px solid rgb(18, 18, 51);
+            width: 20%;
+            height: 70vh;
+            background-color: rgb(31, 31, 53);
+            border-radius: 10px;
+        }
+        .img1 img{
+          width: 90%;
+          height: 15rem;
+          border-radius: 15px;
+          padding: 12px;
+        }
+        .heading{
+            padding-left: 10px;
+            padding-right: 3px;
+        }
+        .heading h3
+        {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .heading p{
+            color: gray;
+        }
+        h4 img{
+            height: 15px;
+            width: 11px;
+        }
+        h4{
+            display: flex;
+            align-items: center;
+            color: rgb(6, 230, 182);
+            gap: 7px;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+            .days{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: rgb(109, 103, 110);
+            padding-right: 15px;
+        }
+        .between{
+            display: flex;
+            justify-content: space-between;
+            height: 35px;
+            width: 90%;
+            padding-bottom: 3px;
+            border-bottom: 1px solid rgb(68, 70, 86);
+            
+        }
+        .icon{
+            padding-left: 15px;
+            padding-bottom: 20px;
+        }
+        .icon img{
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border:1px solid white;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        } 
+        .creat{
+            color: rgb(73, 91, 166);
+            padding-left: 20px;
+            font-size: 13px;
+        }
+        .p{
+            color: white;
+            padding-left: 10px;
+            font-size: 13px;
+        }
+        .align{
+            padding-left: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="block">
+        <div class="img1">
+        <img src="nft-preview-card-component-main/nft-preview-card-component-main/images/image-equilibrium.jpg" alt="">
+    </div>
+    <div class="heading">
+        <h3>Equilibrium #3429</h3>
+        <br>
+        <p>Our equilibrium collection promotes balance and coins</p>
+    </div>
+    <br>
+    <div class="align">
+    <div class="between">
+    <h4><img src="nft-preview-card-component-main/nft-preview-card-component-main/images/icon-ethereum.svg" alt="">0.041ETH</h4>
+    <h4 class="days"> <img src="nft-preview-card-component-main/nft-preview-card-component-main/images/icon-clock.svg" alt=""> 3 days left</h4>
+    </div>
+    </div>
+    <br>
+    <div class="icon">
+        <img src="nft-preview-card-component-main/nft-preview-card-component-main/images/image-avatar.png" alt="">
+        <p class="creat">Creation of </p>
+        <p class="p">Jules Wyvern</p>
+    </div>
+</div>
+</div>
+    
+</body>
+</html>
